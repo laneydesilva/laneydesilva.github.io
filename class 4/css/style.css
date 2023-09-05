@@ -1,0 +1,22 @@
+body{background-color: black;}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.d4h1{color: orangered; text-align:center; font-size: 100px;}
+p{color: greenyellow;text-align: center; font-size: x-large;margin-top: -50px; word-spacing: 5px;}
+
+.column {
+    float:left;
+    width: 50%;
+    padding: 10px;
+    color: greenyellow;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
